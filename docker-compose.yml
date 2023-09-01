@@ -5,11 +5,11 @@ services:
     restart: always
     ports:
       - 3000:3000
-    container_name: back
+    container_name: front
 
   backend:
     image: giovanna0/prova:back
     restart: always
     ports:
       - 8000:8000
-    container_name: front
+    container_name: back
